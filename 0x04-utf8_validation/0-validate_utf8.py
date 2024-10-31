@@ -1,9 +1,18 @@
 #!/usr/bin/python3
+"""
+method that determines if a given data set
+represents a valid UTF-8 encoding.
+"""
+
 
 def validUTF8(data):
     """
-    method that determines if a given data set
-    represents a valid UTF-8 encoding.
+    check validUTF8
+
+    Args:
+        data: given bainary data
+
+    Returns: True or Folase
     """
     num_bytes = 0
 
