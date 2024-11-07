@@ -5,7 +5,7 @@ import sys
 def is_safe(board, row, col):
     """
     Checks if placing a queen at board[row][col] is safe.
-    
+
     Args:
         board (list): The current state of the board.
         row (int): The row index to check.
