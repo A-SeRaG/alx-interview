@@ -14,3 +14,9 @@ def rotate_2d_matrix(matrix):
     # Step 2: Reverse each row
     for row in matrix:
         row.reverse()
+        print(row)
+
+test = [[1,2,3],
+        [4,5,6],
+        [7,8,9]]
+rotate_2d_matrix(test)
