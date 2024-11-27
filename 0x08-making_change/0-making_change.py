@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-# Determines the fewest number of coins
+"""
+Determines the fewest number of coins
+""" 
+
 
 def makeChange(coins, total):
     """
